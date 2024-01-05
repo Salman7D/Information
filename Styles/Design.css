@@ -13,6 +13,7 @@ nav{
     display: flex;  
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .btn-primary{
@@ -43,4 +44,18 @@ nav li{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+.header{
+    background-color: wheat;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex; 
+    align-items: center;
+}
+
+.banner .Profile-pic{
+    width: 500px;
 }
